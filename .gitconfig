@@ -1,0 +1,23 @@
+[user]
+	name = Rémi Piotaix
+	email = remi@piotaix.fr
+
+[alias]
+	a = add
+	ci = commit
+	co = checkout
+	br = branch
+	rb = rebase
+	cp = cherry-pick
+	ps = push
+	pl = pull
+	st = status
+	mt = mergetool
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[core]
+	editor = nano
+	excludesfile = /home/piotaixr/.gitignore
+[pager]
+	branch = false
+[pull]
+	ff = only
